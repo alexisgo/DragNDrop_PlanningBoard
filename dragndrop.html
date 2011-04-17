@@ -124,8 +124,8 @@
 			
 			// bind the drop event on the board sections
   			$('#todo, #inprogress, #done').bind('drop', function(event) {
-            var notecard = event.originalEvent.dataTransfer.getData("text/plain");
-            event.target.appendChild(document.getElementById(notecard));
+              var notecard = event.originalEvent.dataTransfer.getData("text/plain");
+              event.target.appendChild(document.getElementById(notecard));
 			// Turn off the default behaviour
 			// without this, FF will try and go to a URL with your id's name
             event.preventDefault();
