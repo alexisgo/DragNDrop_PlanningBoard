@@ -1,0 +1,7 @@
+A very simple example of how to use Local Storage in order to save simple values.
+
+The example saves the id of the new parent bulletin board section whenever any items are
+moved via drag and drop.
+
+The last drop location for both notecards are then retrieved from local storage when 
+the page reloads.
